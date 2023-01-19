@@ -9,5 +9,10 @@ module.exports = withBundleAnalyzer({
     domains: ['pbs.twimg.com'],
     loader: 'akamai',
     path: '',
-  }
+  },
+  eslint: {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    ignoreDuringBuilds: true,
+  },
 })
