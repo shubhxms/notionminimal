@@ -11,7 +11,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build NODE_OPTIONS=--openssl-legacy-provider;",
+    "build": "next build",
     "start": "next start",
     "deploy": "vercel --prod",
     "deps": "run-s deps:*",
